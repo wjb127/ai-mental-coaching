@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MindCoach AI - AI 멘탈 코칭 서비스
 
-## Getting Started
+AI가 매일 당신의 감정과 퍼포먼스를 분석하고, 개인 맞춤 심리 훈련을 통해 지속적인 성장을 도와드리는 서비스의 랜딩 페이지입니다.
 
-First, run the development server:
+## 주요 기능
+
+- **일일 감정 분석**: 매일의 감정 상태를 AI가 분석하여 패턴을 파악
+- **개인 맞춤 코칭**: 당신의 성향과 목표에 맞는 맞춤형 멘탈 훈련 제공
+- **데이터 기반 피드백**: 성과를 계량화하고 데이터 기반으로 개선점 제시
+- **24/7 접근성**: 언제든지 필요할 때 AI 코치에게 도움 요청 가능
+
+## 타겟 고객
+
+### 자기계발에 투자하는 2030세대
+- 꾸준한 성장을 원하지만 혼자서는 어려움을 느끼는 분
+- 자기 계발에 시간과 돈을 투자할 의향이 있는 분
+- 디지털 도구를 활용한 체계적인 관리를 원하는 분
+
+### 퍼포먼스 향상이 필요한 전문가
+- 운동 선수, CEO, 전문직 종사자
+- 중요한 순간에 멘탈 관리가 필요한 분
+- 지속적인 멘탈 훈련을 통한 성과 향상을 원하는 분
+
+## 기술 스택
+
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Deployment**: Vercel (권장)
+
+## 시작하기
+
+### 필수 조건
+
+- Node.js 18.0 이상
+- npm 또는 yarn
+
+### 설치 및 실행
 
 ```bash
+# 의존성 설치
+npm install
+
+# 개발 서버 실행
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 빌드
+npm run build
+
+# 프로덕션 서버 실행
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+개발 서버가 실행되면 [http://localhost:3000](http://localhost:3000)에서 확인할 수 있습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 프로젝트 구조
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── layout.tsx          # 레이아웃 컴포넌트
+│   ├── page.tsx            # 메인 랜딩 페이지
+│   └── globals.css         # 전역 스타일
+└── components/             # 재사용 가능한 컴포넌트들
+```
 
-## Learn More
+## 배포
 
-To learn more about Next.js, take a look at the following resources:
+### Vercel (권장)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. [Vercel](https://vercel.com/new)에서 프로젝트 import
+2. 자동으로 빌드 및 배포 완료
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 다른 플랫폼
 
-## Deploy on Vercel
+```bash
+# 빌드
+npm run build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 빌드된 파일을 정적 호스팅 서비스에 업로드
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 라이선스
+
+이 프로젝트는 MIT 라이선스 하에 배포됩니다.
+
+## 문의
+
+프로젝트에 대한 문의사항이 있으시면 이슈를 생성해주세요.
