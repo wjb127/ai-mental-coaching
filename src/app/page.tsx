@@ -219,10 +219,10 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <p className="text-slate-600 mb-4">
-                "매일 AI 코치와 대화하면서 내 감정을 객관적으로 볼 수 있게 되었어요. 
-                스트레스 관리가 훨씬 쉬워졌습니다."
-              </p>
+                             <p className="text-slate-600 mb-4">
+                 &ldquo;매일 AI 코치와 대화하면서 내 감정을 객관적으로 볼 수 있게 되었어요. 
+                 스트레스 관리가 훨씬 쉬워졌습니다.&rdquo;
+               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
                   <span className="text-blue-600 font-semibold">김</span>
@@ -241,10 +241,10 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <p className="text-slate-600 mb-4">
-                "중요한 프레젠테이션 전에 멘탈 훈련을 받고 자신감이 크게 향상되었습니다. 
-                데이터로 성장을 확인할 수 있어서 좋아요."
-              </p>
+                             <p className="text-slate-600 mb-4">
+                 &ldquo;중요한 프레젠테이션 전에 멘탈 훈련을 받고 자신감이 크게 향상되었습니다. 
+                 데이터로 성장을 확인할 수 있어서 좋아요.&rdquo;
+               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
                   <span className="text-purple-600 font-semibold">박</span>
@@ -263,10 +263,10 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <p className="text-slate-600 mb-4">
-                "24시간 언제든 상담받을 수 있어서 좋고, 개인 맞춤 훈련이 정말 효과적이에요. 
-                경기력이 눈에 띄게 향상되었습니다."
-              </p>
+                             <p className="text-slate-600 mb-4">
+                 &ldquo;24시간 언제든 상담받을 수 있어서 좋고, 개인 맞춤 훈련이 정말 효과적이에요. 
+                 경기력이 눈에 띄게 향상되었습니다.&rdquo;
+               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
                   <span className="text-green-600 font-semibold">이</span>
