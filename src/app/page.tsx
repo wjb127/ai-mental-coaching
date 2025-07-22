@@ -99,7 +99,7 @@ export default function Home() {
           <div className="animate-slide-up">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-800 mb-8 leading-tight">
               AI가 당신의{' '}
-              <span className="gradient-text text-reveal relative">
+              <span className="gradient-text relative">
                 멘탈 코치
               </span>
               가<br />되어드립니다
