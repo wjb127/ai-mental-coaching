@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowRight, Brain, Target, Users, Zap, CheckCircle, Star, Sparkles, Shield, Clock, TrendingUp } from 'lucide-react'
+import { ArrowRight, Brain, Target, Users, CheckCircle, Star, Sparkles, Clock, TrendingUp } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
 export default function Home() {
@@ -439,8 +439,8 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-slate-600 mb-8 text-lg leading-relaxed italic">
-                  "매일 AI 코치와 대화하면서 내 감정을 객관적으로 볼 수 있게 되었어요. 
-                  스트레스 관리가 훨씬 쉬워졌습니다."
+                  &ldquo;매일 AI 코치와 대화하면서 내 감정을 객관적으로 볼 수 있게 되었어요. 
+                  스트레스 관리가 훨씬 쉬워졌습니다.&rdquo;
                 </p>
                 <div className="flex items-center">
                   <div className="w-14 h-14 bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center">
@@ -465,8 +465,8 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-slate-600 mb-8 text-lg leading-relaxed italic">
-                  "중요한 프레젠테이션 전에 멘탈 훈련을 받고 자신감이 크게 향상되었습니다. 
-                  데이터로 성장을 확인할 수 있어서 좋아요."
+                  &ldquo;중요한 프레젠테이션 전에 멘탈 훈련을 받고 자신감이 크게 향상되었습니다. 
+                  데이터로 성장을 확인할 수 있어서 좋아요.&rdquo;
                 </p>
                 <div className="flex items-center">
                   <div className="w-14 h-14 bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl flex items-center justify-center">
@@ -491,8 +491,8 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-slate-600 mb-8 text-lg leading-relaxed italic">
-                  "24시간 언제든 상담받을 수 있어서 좋고, 개인 맞춤 훈련이 정말 효과적이에요. 
-                  경기력이 눈에 띄게 향상되었습니다."
+                  &ldquo;24시간 언제든 상담받을 수 있어서 좋고, 개인 맞춤 훈련이 정말 효과적이에요. 
+                  경기력이 눈에 띄게 향상되었습니다.&rdquo;
                 </p>
                 <div className="flex items-center">
                   <div className="w-14 h-14 bg-gradient-to-br from-green-100 to-green-200 rounded-2xl flex items-center justify-center">
